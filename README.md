@@ -1,4 +1,4 @@
 # Portfolio
 
-*** Attribution ***
-Favicon created by Freepik, [source](https://www.flaticon.com/free-icons/book)
+*** Attribution ***  
+Favicon created by Freepik, [source](https://www.flaticon.com/free-icons/code)
