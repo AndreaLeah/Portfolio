@@ -70,15 +70,22 @@ body {
     height: 100%;
 }
 
+    /* Photo Div */
+
+.photo-div {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+
 .main-text {
-    padding-right: 20px;
     font-size: var(--main-text-font);
     font-weight: 500;
     color: white;
-    position: fixed;
+    position: relative;
     text-align: right;
     top: 30%;
-    left: 20%;
+    right: -125px;
 }
 
 .line-1 {
@@ -156,17 +163,7 @@ body {
 .stack-container span img:hover {
     transform: scale(1.1);
 }
-    /* Photo Div */
 
-.photo-div {
-    width: 70%;
-    background-color: black;
-}
-
-.main-photo {
-    width: 60%;
-    height: auto;
-}
 
 
 
