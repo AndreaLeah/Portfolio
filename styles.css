@@ -70,7 +70,7 @@ body {
 
 .color-div {
     background-color: #7743DB;
-    width: 35%;
+    width: 25%;
     height: 100%;
 }
 
@@ -103,7 +103,7 @@ body {
     /* Black Div */
 
 .black-div {
-    width: 65%;
+    width: 75%;
     height: 100%;
     background-color: black;
     display: flex;
