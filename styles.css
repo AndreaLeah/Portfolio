@@ -35,15 +35,26 @@ body {
     background-color: black;
     color: white;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
     z-index: 2;
+}
+
+.location-container {
+    padding-left: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.location-city {
+    font-size: 28px;
 }
 
 .icons-container {
     display: flex;
     gap: 40px;
-    margin-right: 40px;
+    padding-right: 40px;
 }
 
 .icons-container i {
