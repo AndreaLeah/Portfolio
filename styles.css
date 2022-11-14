@@ -3,6 +3,9 @@
     --font-family: 'Poppins', sans-serif;
     --carousel-img-width: 400px;
     --carousel-img-height: 240px;
+    --purple: #7743DB;
+    --pink: #ff9bac;
+    --light-purple: #b18bff;
 }
 
 body {
@@ -50,7 +53,7 @@ body {
 
 .icons-container i:hover {
     cursor: pointer;
-    color: #ff9bac;
+    color: var(--pink);
     scale: 1.2;
 }
 
@@ -69,7 +72,7 @@ body {
 /* Purple Area */
 
 .color-div {
-    background-color: #7743DB;
+    background-color: var(--purple);
     width: 35%;
     height: 100%;
 }
@@ -88,15 +91,15 @@ body {
 }
 
 .line-1 {
-    text-shadow: 4px 4px #b18bff;
+    text-shadow: 4px 4px var(--light-purple);
 }
 
 .line-2 {
-    text-shadow: 4px 4px #b18bff;
+    text-shadow: 4px 4px var(--light-purple);
 }
 
 .line-3 {
-    text-shadow: -4px -4px #ff9bac;
+    text-shadow: -4px -4px var(--pink);
 }
 
 
@@ -120,7 +123,6 @@ body {
 
 .svg-container img {
     width: 250px;
-    fill: #7743DB;
     animation: wave linear 6s infinite;
 }
 
@@ -136,6 +138,37 @@ body {
 
 
 
+/* About Section */
+
+.about-content {
+    text-align: center;
+}
+
+.about-heading {
+    color: var(--purple);
+    font-size: var(--main-text-font);
+    font-weight: 700;
+}
+
+.about-paragraph {
+    font-size: 40px;
+}
+
+.JS, .html {
+    color: var(--pink);
+}
+
+.hr {
+    margin-top: 150px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+    border-color: rgb(219, 219, 219);
+    height: 0px;
+    width: 125px;
+}
+
+
 /* Project Display */
 
 .project-main-container {
@@ -144,11 +177,12 @@ body {
     width: 100%;
     height: 800px;
     gap: 100px;
+    margin-bottom: 50px;;
 }
 
 .projects-heading p {
     margin: 0;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .projects-heading {
